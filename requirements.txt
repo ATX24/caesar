@@ -1,0 +1,9 @@
+gensim
+scikit-learn
+fuzzywuzzy
+pandas
+numpy
+keyboard
+pynput
+spacy
+pyautogui

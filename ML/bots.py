@@ -98,9 +98,11 @@ class LatinSuperBot():
 
     def run(self, test_word): 
         if self.metric == 'cosine similarity':
-            return self.cosine_test(test_word)
+            sim_list, word_list =  self.cosine_test(test_word)
+            return word_list
         elif self.metric == 'levenshtein':
-            return self.levenshtein_test(test_word)
+            sim_list, word_list = self.levenshtein_test(test_word)
+            return word_list
 
 
 

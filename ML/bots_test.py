@@ -24,7 +24,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import nltk 
 
 # Load pre-trained GloVe model with spaCy
-# Downlaod before loading --> python -m spacy download en_core_web_sm
+# Downlaod before loading --> python -m spacy download en_core_web_md
 
 
 #Using basic simlarity as a metric - VERY basic ML model solution
