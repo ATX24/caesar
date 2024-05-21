@@ -45,8 +45,8 @@ def submitvalue(path, p):
 
 
 #Make sure latin app is up and running
-testname = 's114424'
-testpass = '2324King$2322$'
+testname = 
+testpass = 
 
 browser.get('https://laketravis.schoology.com/login/ldap?&school=17707999')
 time.sleep(3)
